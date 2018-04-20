@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="SU TEMA">
+    <meta name="author" content="SU NOMBRE">
+    <title>DEATH SOULS</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link href="estilo.css" rel="stylesheet">
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">DEATH SOULS</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#primera">Muertes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#segunda">Ecos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#tercera">Tumbas</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <div class="container h-100">
+        <div class="row h-100">
+          <div class="col text-center">
+          	<h1>DEATH SOULS</h1>
+          	<h2>Una biblioteca grotesca de los no muertos</h2>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="primera">
+      <div class="container">
+        <div class="row">
+       
+            <div class="col-md-6 pt-2">
+            
+               <svg width="360" height="360" style="background:#330000
+                                                ;">
+          <g>
+            <circle r="30" cx="180" cy="40"/>
+            <text x="178" y="40" fill="#ED3D88"></text>
+            <circle r="30" cx="180" cy="100"/>
+            <text x="178" y="100" fill="#ED3D88"></text>
+            <circle r="30" cx="180" cy="180"/>
+            <text x="178" y="180" fill="#ED3D88"></text>
+            <circle r="30" cx="180" cy="280"/>
+            <text x="178" y="280" fill="#ED3D88"></text>
+          </g>
+        </svg>
+            </div>
+            
+          <div class="col-lg-6">
+          	<h3 class="mt-3">Muertes</h3>
+            <p>El elemento mas iconico de <a href="https://es.wikipedia.org/wiki/Dark_Souls">Dark Souls el VideoJuego</a> es la mecánica de <a href="http://darksouls.wikia.com/wiki/Death">Muerte</a> </p> 
+          	<p> Ha ganado su infame debido a que te obliga a empezar desde cero, castigando por tu fracaso al quitarte todas tus almas, un recurso vital para progresar el juego.</p>
+            <p>Gracias a esto, solo los mas dedicados al juego han muerto más, mientras que los demás se han dado por vencido, o como lo diría el juego, se han vuelto <a href="http://darksouls.wikia.com/wiki/Hollow">Huecos</a>.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="segunda" class="bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h3 class="mt-3">Ecos</h3>
+            <p>Los jugadores pueden dejar sus <a href="http://darksouls.wikia.com/wiki/Orange_Guidance_Soapstone">Mensajes</a> sobre la faz de Lodran como tajos dimensionales. A veces son para dar consejos, otras son burlas y en el peor caso...una trampa.</p> 
+            <p>Sin embargo a nadie le sorprendió que "Praise the Sun" fue el más popular.</p>
+          </div>
+          <div class="col-lg-6 text-right dataviz-segunda"></div>
+        </div>
+      </div>
+    </section>
+    <section id="tercera">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 dataviz-tercera"></div>
+          <div class="col-lg-6">
+            <h3 class="mt-3">Tumbas</h3>
+           <p>Al llegar su inevitable destino, todo <a href="http://darksouls.wikia.com/wiki/Chosen_Undead">no muerto elegido</a> deja su <a href="http://darksouls.wikia.com/wiki/Bloodstain">marca</a> en el mundo. Esto no significa su fin, pero si una tragedia que los mundos que el visito recordara</p> 
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+      	<div class="row">
+      		<div class="col">
+		        <p class="small">Desarrollado por <a href="mailto:sad.pedrosqui@gmail.com">Pedro Taras Pons Emelianov</a> | Seminario Gráfica Computacional I 2018, Primer Semestre</p>
+		        <ul class="list-inline small">
+		          <li class="list-inline-item">
+		            <a class="nav-link js-scroll-trigger" href="#primera">PRIMERA</a>
+		          </li>
+		          <li class="list-inline-item">
+		            <a class="nav-link js-scroll-trigger" href="#segunda">SEGUNDA</a>
+		          </li>
+		          <li class="list-inline-item">
+		            <a class="nav-link js-scroll-trigger" href="#tercera">TERCERA</a>
+		          </li>
+		        </ul>
+      		</div>
+      	</div>
+      </div>
+    </footer>
+
+    <!-- Javascript de visualizaciones-->
+	<script src="https://d3js.org/d3.v5.min.js"></script>
+	<script src="d3/primera.js"></script>
+	<script src="d3/segunda.js"></script>
+	<script src="d3/tercera.js"></script>
+    <!-- Javascript de Bootstrap -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/menu.js"></script>
+  </body>
+
+</html>
